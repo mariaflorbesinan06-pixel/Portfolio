@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Geraldflix</title>
+    <link rel="stylesheet" href="project.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">GERALD<span>FLIX</span></div>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="project.html" class="active">Projects</a></li>
+            <li><a href="skills.html">Certificate</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header class="banner">
+        <h1>My Projects</h1>
+        <p>Collection of my Academic, Web, Mobile, and IoT Projects</p>
+    </header>
+
+    <section class="projects">
+
+        <div class="project-card" onclick="openModal('MaternalCare+','images/maternalcare.jpg','MaternalCare+ is a Smart Healthcare Administration System for Barangay Clinics and Pregnant Women.')">
+            <img src="12.jpg" alt="MaternalCare">
+            <div class="project-info">
+                <h2>System 2nd year</h2>
+                <p>First System that I develop. </p>
+            </div>
+        </div>
+
+        <div class="project-card" onclick="openModal('IoT BP Monitor','images/iot.jpg','ESP32-Based Blood Pressure Monitoring System with Firebase Integration.')">
+            <img src="5.jpg" alt="IoT">
+            <div class="project-info">
+                <h2>Short Film</h2>
+                <p>Short Film na medyo Budget Friendly hehe.</p>
+            </div>
+        </div>
+
+        <div class="project-card" onclick="openModal('eReading','images/ereading.jpg','AI-Powered Reading Improvement Platform for Slow Readers.')">
+            <img src="7.jpg" alt="eReading">
+            <div class="project-info">
+                <h2>Introducing</h2>
+                <p>First Day Class Introduce dayun.</p>
+            </div>
+        </div>
+
+        <div class="project-card" onclick="openModal('Library Management','images/library.jpg','Web-Based Unified Library Management System.')">
+            <img src="6.jpg" alt="Library">
+            <div class="project-info">
+                <h2>System 2nd year</h2>
+                <p>Ordering page sa akong first buhat sa system</p>
+            </div>
+        </div>
+
+        <div class="project-card" onclick="openModal('Smart Fish Pond','images/fishpond.jpg','IoT-Based Smart Solar Powered Fish Pond Monitoring System.')">
+            <img src="3.jpg" alt="Fishpond">
+            <div class="project-info">
+                <h2>System 1st Year</h2>
+                <p>System na among gibuhat pero ako ani tig change lang sa image.</p>
+            </div>
+        </div>
+
+        <div class="project-card" onclick="openModal('Smart Fish Pond','images/fishpond.jpg','IoT-Based Smart Solar Powered Fish Pond Monitoring System.')">
+            <img src="4.jpg" alt="Fishpond">
+            <div class="project-info">
+                <h2>Reporting Introducing</h2>
+                <p>Introducing your self pero grouping.</p>
+            </div>
+        </div>
+
+        <div class="project-card" onclick="openModal('Smart Fish Pond','images/fishpond.jpg','IoT-Based Smart Solar Powered Fish Pond Monitoring System.')">
+            <img src="27.jpg" alt="Fishpond">
+            <div class="project-info">
+                <h2>Defense</h2>
+                <p>Nakaya ra pero nag kamang</p>
+            </div>
+            </div>
+
+            <div class="project-card" onclick="openModal('Smart Fish Pond','images/fishpond.jpg','IoT-Based Smart Solar Powered Fish Pond Monitoring System.')">
+            <img src="28.jpg" alt="Fishpond">
+            <div class="project-info">
+                <h2>Deployment</h2>
+                <p>Pagdeploy namo sa malitbog</p>
+            </div>
+            </div>
+
+            <div class="project-card" onclick="openModal('Smart Fish Pond','images/fishpond.jpg','IoT-Based Smart Solar Powered Fish Pond Monitoring System.')">
+            <img src="29.jpg" alt="Fishpond">
+            <div class="project-info">
+                <h2>4th year and FInal Defense</h2>
+                <p>1st day pa jud ang schedule pero kaya ra.</p>
+            </div>
+            </div>
+
+            <div class="project-card" onclick="openModal('Smart Fish Pond','images/fishpond.jpg','IoT-Based Smart Solar Powered Fish Pond Monitoring System.')">
+            <img src="30.jpg" alt="Fishpond">
+            <div class="project-info">
+                <h2>Exhibit</h2>
+                <p>Nag design me pero isa sa amoa wala kabalo mo design.</p>
+            </div>
+        </div>
+
+
+
+    </section>
+
+    <!-- Modal -->
+    <div id="projectModal" class="modal">
+
+        <div class="modal-content">
+
+            <span class="close-btn" onclick="closeModal()">&times;</span>
+
+            <img id="modalImage" src="" alt="">
+
+            <h2 id="modalTitle"></h2>
+
+            <p id="modalDescription"></p>
+
+        </div>
+
+    </div>
+
+    <script src="project.js"></script>
+
+</body>
+</html>
